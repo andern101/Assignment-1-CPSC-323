@@ -1,0 +1,55 @@
+File to be opened: Test1.txt
+Source Code:
+int num1;
+int num2;
+int num3;
+int t;
+
+num1 = 3; 
+num2 = 5; 
+num3 = 7;
+t = num1 + num2 + num3;
+
+
+cout << t;
+
+Lexical Analysis:
+Token                       	Lexeme
+-------------------------------------------------------
+Keyword                       	int
+Identifier                    	num1
+Separator                     	;
+Keyword                       	int
+Identifier                    	num2
+Separator                     	;
+Keyword                       	int
+Identifier                    	num3
+Separator                     	;
+Keyword                       	int
+Identifier                    	t
+Separator                     	;
+Identifier                    	num1
+Operator                      	=
+Integer                       	3
+Separator                     	;
+Identifier                    	num2
+Operator                      	=
+Integer                       	5
+Separator                     	;
+Identifier                    	num3
+Operator                      	=
+Integer                       	7
+Separator                     	;
+Identifier                    	t
+Operator                      	=
+Identifier                    	num1
+Operator                      	+
+Identifier                    	num2
+Operator                      	+
+Identifier                    	num3
+Separator                     	;
+Identifier                    	cout
+Operator                      	<
+Operator                      	<
+Identifier                    	t
+Separator                     	;

@@ -1,0 +1,19 @@
+File to be opened: Test2.txt
+Source Code:
+if( x > y)
+
+x = 400.5;
+
+Lexical Analysis:
+Token                       	Lexeme
+-------------------------------------------------------
+Keyword                       	if
+Separator                     	(
+Identifier                    	x
+Operator                      	>
+Identifier                    	y
+Separator                     	)
+Identifier                    	x
+Operator                      	=
+Real                          	400.5
+Separator                     	;

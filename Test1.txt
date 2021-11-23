@@ -1,0 +1,12 @@
+int num1;
+int num2;
+int num3;
+int t;
+
+num1 = 3; 
+num2 = 5; 
+num3 = 7;
+t = num1 + num2 + num3;
+
+
+cout << t;

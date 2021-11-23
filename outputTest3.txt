@@ -1,0 +1,52 @@
+File to be opened: Test3.txt
+Source Code:
+int x;
+int y;
+int sum;
+
+x = 2;
+y = 6;
+
+sum = ((6/ 2) + 3) / 6;
+
+cout << sum;
+
+Lexical Analysis:
+Token                       	Lexeme
+-------------------------------------------------------
+Keyword                       	int
+Identifier                    	x
+Separator                     	;
+Keyword                       	int
+Identifier                    	y
+Separator                     	;
+Keyword                       	int
+Identifier                    	sum
+Separator                     	;
+Identifier                    	x
+Operator                      	=
+Integer                       	2
+Separator                     	;
+Identifier                    	y
+Operator                      	=
+Integer                       	6
+Separator                     	;
+Identifier                    	sum
+Operator                      	=
+Separator                     	(
+Separator                     	(
+Integer                       	6
+Operator                      	/
+Integer                       	2
+Separator                     	)
+Operator                      	+
+Integer                       	3
+Separator                     	)
+Operator                      	/
+Integer                       	6
+Separator                     	;
+Identifier                    	cout
+Operator                      	<
+Operator                      	<
+Identifier                    	sum
+Separator                     	;
